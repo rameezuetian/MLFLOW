@@ -1,0 +1,28 @@
+artifact_path: file:///e:/MLOPs/practice/MLFLOW/day-4/Deep_Learnig_MLFLOW/mlruns/1/models/m-95ee9e4c14f54259882b304d82cb49bc/artifacts
+flavors:
+  python_function:
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.tensorflow
+    python_version: 3.10.18
+  tensorflow:
+    code: null
+    data: data
+    keras_version: 2.20.0
+    model_type: keras
+    save_format: tf
+is_signature_from_type_hint: false
+mlflow_version: 3.8.1
+model_id: m-95ee9e4c14f54259882b304d82cb49bc
+model_size_bytes: 28784
+model_uuid: m-95ee9e4c14f54259882b304d82cb49bc
+prompts: null
+run_id: d8d61497bfff49ccb94224a64fbe112f
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1, 11]}}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-02-11 16:23:59.789234'
